@@ -1,0 +1,116 @@
+@import url("header.css");
+@import url("hero.css");
+@import url("about.css");
+@import url("how.css");
+@import url("pricing.css");
+@import url("faqs.css");
+@import url("footer.css");
+
+/* =================================================== */
+/* =================================================== */
+
+html, body {
+	font-family: "Neue Machina", sans-serif;
+	color: #151515;
+	background: #F0F0F0;
+	font-size: 18px;
+}
+
+.wrapper {
+	width: 100%;
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.container {
+	max-width: 1750px;
+	padding: 0 15px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.main__container {
+	max-width: 1550px;
+}
+
+.button {
+	display: inline-block;
+	color: #FFF;
+	padding: 12px 46px;
+	border: 1px solid #151515;
+	background: #151515;
+	line-height: 26px;
+	white-space: nowrap;
+	transition: .3s;
+}
+
+.button:hover {
+	background: transparent;
+	color: #151515;
+	transition: .3s;
+}
+
+.button--white {
+	padding: 12px 46px;
+	border: 1px solid #FFF;
+	background: #FFF;
+	color: #151515;
+	transition: .3s;
+}
+
+.button--white:hover {
+	color: #FFF;
+	background: transparent;
+	transition: .3s;
+}
+
+.subtitle {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 26px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 5px 17px;
+	border: 1px solid #151515;
+	margin-bottom: 20px;
+}
+
+.title {
+	font-size: 60px;
+	letter-spacing: -3px;
+}
+
+.text {
+	line-height: 26px;
+}
+
+section {
+	margin-bottom: 200px;
+}
+
+
+@media (max-width: 1024px) {
+	section {
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	.image img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 425px) {
+	.title {
+		font-size: 28px;
+		line-height: normal;
+		letter-spacing: -1.4px;
+	}
+
+	.button {
+		padding: 12px 40px;
+	}
+}

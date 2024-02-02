@@ -1,0 +1,19 @@
+@font-face {
+	font-family: Neue Machina;
+	font-weight: 800;
+	font-style: normal;
+  	src: local("Neue Machina"),
+      url("../fonts/NeueMachina-Ultrabold.woff2") format('woff2'),
+      url("../fonts/NeueMachina-Ultrabold.woff") format('woff');
+  	font-display: swap;
+}
+
+@font-face {
+	font-family: Neue Machina;
+	font-weight: 400;
+	font-style: normal;
+  	src: local("Neue Machina"),
+      url("../fonts/NeueMachina-Regular.woff2") format('woff2'),
+      url("../fonts/NeueMachina-Regular.woff") format('woff');
+  	font-display: swap;
+}
